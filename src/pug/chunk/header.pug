@@ -1,1 +1,27 @@
 header Шапка
+p тест текст
+
+nav.header__nav
+   .header__logo 
+   .header__nav--menu
+      span.burger 
+      ul.menu__list
+         each value, index in {'Главная' : 'home', 'О компании' : 'about', 'Услуги' : 'services', 'Каталог' : 'catalog', 'Контакты' : 'contact'}
+            li
+               a(href= "/" + value + ".html")= index
+      .header__menu
+         ul
+            li
+               a(href="") 
+            li
+               a(href="") 
+            li
+               a(href="") 
+            li
+               a(href="") 
+            li
+               a(href="") 
+            li
+               a(href="")  
+nav.menu
+      
